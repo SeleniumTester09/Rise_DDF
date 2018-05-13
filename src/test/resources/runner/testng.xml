@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Data Driven Basics">
-  <test  name="LoginTest">
+
+  <test  name="BankManagerLoginTest">
+
+      <classes>
+       <class name="com.rise.testcases.BankManagerLoginTest"/>
+       </classes>
+       
+  </test> <!-- Test -->
+  
+   <test  name="AddCustomerTest">
     <classes>
-          <class name="com.rise.testcases.LoginTest"/>
-          
+          <class name="com.rise.testcases.AddCustTest"/>
     </classes>
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
  
