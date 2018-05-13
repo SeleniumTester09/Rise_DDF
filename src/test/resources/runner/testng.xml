@@ -4,6 +4,7 @@
   <test  name="LoginTest">
     <classes>
           <class name="com.rise.testcases.LoginTest"/>
+          
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
